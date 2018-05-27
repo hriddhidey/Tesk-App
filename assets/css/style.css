@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+::selection {
+	background: #FFFF26; 
+}
+::-moz-selection {
+	background: #FFFF26; 
+}
+
+body,section,header,article{
+	margin: 0 auto;
+	padding: 1em;
+}
+
+*:focus {
+	outline: none;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	margin: 5vw;
+	font-family: 'Lora', serif;
+	line-height: 1.5rem;
+}
+
+button {
+	flex: 0.5;
+	margin: 10px;
+	align-self: center;
+	background-color: #fff;
+	border: 1px solid #eee;
+	padding: 12px 20px 12px 20px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	color: #333;
+
+	transition: 0.15s ease-in-out;
+	-webkit-transition: 0.15s ease-in-out;
+	-moz-transition: 0.15s ease-in-out;
+	-o-transition: 0.15s ease-in-out;
+}
+
+button:hover {
+	box-shadow: inset 150px 0 0 0 black;
+	color: #eee;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#buttons {
+	padding:15px;
+	margin:0 auto;
+	width: 90vw;
+	height: 5rem;
+	text-align: center;
+}
+
+.main {
+	width:80vw;
+	margin:0 auto;
+}
